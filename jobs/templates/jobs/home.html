@@ -446,11 +446,10 @@ body:not(.search__active) #sort-relevance {
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="{% static 'Jonathan Opperman -CV.pdf'%}">Resume</a>
-                    <!-- <a class="nav-item nav-link" href="{% url 'allblogs' %}">Blog</a> -->
+                    
                     <a class="nav-item nav-link" href="https://github.com/jcopperman/jubilant-octo-adventure"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" /></a>
                     <a class="nav-item nav-link" href="https://twitter.com/TesterTrending"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" /></a>
-                   <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Admin</a> -->
+                  
                 </div>
             </div>
         </nav>
@@ -464,13 +463,16 @@ body:not(.search__active) #sort-relevance {
                 <p class="lead text-muted">I'm a software tester, web developer and liegeman to technology. Welcome to my portfolio! </p>
                 <p>
                     <a href="mailto:opperman.jonathan@gmail.com" class="btn btn-primary my-2">Email Me</a>
+                    <a href="{% static 'Jonathan Opperman -CV.pdf'%}" class="btn btn-secondary my-2">Download Resume</a>
                 </p>
+                
                 <!-- <img src="{% static 'IMG_20200406_121239.jpg' %}" height="200"/> -->
             </div>
         </section>
 
 
 <section>
+    <center><h3>Skill Stack</h3></center>
  <ul class="grid">
     <li class="grid-item grid-item--light" style="background-color: rgb(0, 137, 214); --order-alpha: 709; --order-relevance:15;">
         <a class="grid-item__link" ""microsoftazure.svg" download="">
